@@ -1,14 +1,10 @@
-import Header from "./Header"
-import Footer from "./Footer";
-
+import Button from "./assets/Button/Button.jsx";
 function App() {
-
-  return(
-    <> 
-    <Header/>
-    <Footer/>
+  return (
+    <>
+      <Button />
     </>
   );
 }
 
-export default App
+export default App;
