@@ -6,6 +6,7 @@ function App() {
       <Button />
       <Student name="Petko" age={25} isStudent={true} />
       <Student name="Gosho" age={77} isStudent={false} />
+      <Student />
     </>
   );
 }

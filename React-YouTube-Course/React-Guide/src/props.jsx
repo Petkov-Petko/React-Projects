@@ -18,4 +18,10 @@ Student.propTypes = {
   age: propTypes.number,
   isStudent: propTypes.bool,
 };
+// Ако не сложим никакви стойности в компонента в App.js ще зададе тези като дефаут.
+Student.defaultProps = {
+  name: "Guest",
+  age: 0,
+  isStudent: false,
+};
 export default Student;
