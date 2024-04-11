@@ -1,5 +1,6 @@
 import Button from "./assets/Button/Button.jsx";
 import Student from "./props.jsx";
+import List from "./List.jsx";
 function App() {
   return (
     <>
@@ -7,6 +8,7 @@ function App() {
       <Student name="Petko" age={25} isStudent={true} />
       <Student name="Gosho" age={77} isStudent={false} />
       <Student />
+      <List />
     </>
   );
 }
