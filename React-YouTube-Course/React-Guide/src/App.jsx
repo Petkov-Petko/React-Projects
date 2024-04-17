@@ -1,6 +1,8 @@
 import Button from "./assets/Button/Button.jsx";
 import Student from "./props.jsx";
 import List from "./List.jsx";
+import MyComponent from "./useState.jsx";
+import ObjectComponent from "./objectUpdate.jsx";
 function App() {
   return (
     <>
@@ -9,6 +11,8 @@ function App() {
       <Student name="Gosho" age={77} isStudent={false} />
       <Student />
       <List />
+      <MyComponent />
+      <ObjectComponent />
     </>
   );
 }
